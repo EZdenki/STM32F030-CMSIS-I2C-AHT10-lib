@@ -69,8 +69,7 @@
 //    of the original decimal number rounded to 1 decimal place. For example, if the number
 //    in question is 12.36, then 1236 is passed via realV. The resulting string is 12.4,
 //    because 12.36 rounds up to 12.4. Negative numbers and more complex rounding work as
-//    expected. For example, -2.35, passed as -235, returns "-2.4", and 19.96, passed as 1996,
-//    "w" = -2 and "d" = 4. Also, 19.96 would return "w" = 20 and "d" = 0.
+//    expected. For example, -2.35, passed as -235, returns "-2.4".
 //  ============================================================================================
 
 #ifndef __STM32F103_CMSIS_AHT10_LIB_C
